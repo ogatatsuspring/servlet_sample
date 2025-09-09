@@ -21,7 +21,6 @@ public class TestController extends HttpServlet {
     TestService service = new TestService();
     service.writeData();
     return;
-
     
   }
 
